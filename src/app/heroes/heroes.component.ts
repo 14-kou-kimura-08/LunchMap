@@ -10,7 +10,8 @@ export class HeroesComponent implements OnInit {
 
   hero: Hero = {
       id: 1,
-      name: 'WindStorm'
+      name: 'WindStorm',
+      age: 20
   };
 
   constructor() { }
